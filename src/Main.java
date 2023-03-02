@@ -14,7 +14,7 @@ public class Main {
         int thwel = 0;
 
         System.out.println("enter name_");
-        System.out.println("enter name_a");
+       
         String Name = in.nextLine();
         System.out.println("enter Date of birth");
         Data_birth = in.nextLine();
