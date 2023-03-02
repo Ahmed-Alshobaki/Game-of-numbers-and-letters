@@ -13,7 +13,7 @@ public class Main {
         int answer_minus = 0;
         int thwel = 0;
 
-        System.out.println("enter name");
+        System.out.println("enter name_");
         String Name = in.nextLine();
         System.out.println("enter Date of birth");
         Data_birth = in.nextLine();
