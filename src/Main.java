@@ -13,7 +13,7 @@ public class Main {
         int answer_minus = 0;
         int thwel = 0;
 
-        System.out.println("enter name");
+        System.out.println("enter name++");
         String Name = in.nextLine();
         System.out.println("enter Date of birth");
         Data_birth = in.nextLine();
@@ -189,20 +189,21 @@ public class Main {
                     points = points + 2;
                 } else System.out.println("error");
 
-            }}
-
-            while (play_Data == 2) {
-                String aa = Data_birth.substring(Data_birth.length() - 4);
-                int number = Integer.parseInt(aa);
-                System.out.println("Name = " + Name);
-                System.out.println("age = " + (2022 - number));
-                System.out.println("points = " + points);
-
             }
+        }
 
+        while (play_Data == 2) {
+            String aa = Data_birth.substring(Data_birth.length() - 4);
+            int number = Integer.parseInt(aa);
+            System.out.println("Name = " + Name);
+            System.out.println("age = " + (2022 - number));
+            System.out.println("points = " + points);
 
         }
+
+
     }
+}
 
 
 
